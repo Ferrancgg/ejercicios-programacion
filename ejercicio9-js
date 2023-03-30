@@ -1,0 +1,10 @@
+
+
+function coincidencias (array1,array2){
+    const commonElements= array1.filter(element=>{ return array2.includes(element);});
+    console.log ( commonElements);
+    return commonElements;
+  
+    }
+
+console.log(coincidencias(["Antonio","b","c"], ["Antonio","e","r"]));
