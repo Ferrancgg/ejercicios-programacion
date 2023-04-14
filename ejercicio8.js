@@ -2,18 +2,19 @@
 
 
 function reverseNumber(num){
-    let ejecucion = parseInt(
+    let ejecucion = parseInt(//esta la hacermos al final para para convertir un string en un numero//
                         num.toString()
                         .split('')
                         .reverse()
                         .join('')
-                        );
+                        )
+                        *Math.sign(num) // una vez que tengo en numero vamos a tener en cuenta el signo que tiene para que el ejericio sea correcto;
 
 
-    console.log(ejecucion)
+
+    return ejecucion;
+
 
 
 }
-console.log(ejecucion)
-
-reverseNumber(55)
+console.log("el numero invertido es",reverseNumber(-89))

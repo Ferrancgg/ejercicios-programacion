@@ -1,7 +1,8 @@
 ////dado una cadena de texto comprobar si es un plidromo///
 //ejemplo: ana
 
-function polidromo(string){
+function polindromo(string){
+  
 
     let palabraInvertida= string.split('')
                                 .reverse()
@@ -15,7 +16,7 @@ function polidromo(string){
 }                   
 
 
-console.log( `es un polidromo la palabra: ` + polidromo("lisa"))
+console.log( `es un polidromo la palabra: ` + polindromo("ana"))
 ////////
 
 

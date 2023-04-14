@@ -17,14 +17,11 @@ function oddNumbers(num1, num2){
 
     }
     
-
-
-
     /////faltaria añadir el retur de counter
 
 }
 
-oddNumbers(3,50)
+oddNumbers(5,50)
 
 
 
